@@ -1,14 +1,3 @@
-"""Sähkömonitori
-
-Simple Streamlit app that fetches hourly electricity prices from the
-`porssisahko` API and displays today's price chart and the current price.
-
-Run with:
-    streamlit run sahko.py
-
-Dependencies: `streamlit`, `pandas`, `requests`
-"""
-
 import requests
 import streamlit as st
 import pandas as pd
